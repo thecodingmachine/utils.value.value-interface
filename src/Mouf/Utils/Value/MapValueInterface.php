@@ -3,7 +3,7 @@ namespace Mouf\Utils\Value;
 
 /**
  * This interface is implemented by any object that can represent an map (an associative array) as a value.
- * An object implementing this interface will return a map when the "getValue" method is called.
+ * An object implementing this interface will return a map when the "val()" method is called.
  * 
  * @author David Négrier
  */
@@ -14,5 +14,5 @@ interface MapValueInterface extends ArrayValueInterface {
 	 * 
 	 * @return array
 	 */
-	public function getValue();
+	public function val();
 }
