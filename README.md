@@ -13,6 +13,21 @@ Here are a few samples:
 - a class that represents whether the current user has some right
 - ...
 
+This package does not only contains the *ValueInterface* interface. It also contains a number of more specialized 
+interfaces that extend *ValueInterface* and that represent specific values (like a string or a bool).
+
+Here is a list of all interfaces available in this package:
+
+- ValueInterface
+	- ScalarValueInterface
+		- StringValueInterface
+		- BoolValueInterface
+		- NumberValueInterface
+			- IntValueInterface
+	- ObjectValueInterface
+	- ArrayValueInterface
+		- MapValueInterface
+
 Mouf package
 ------------
 
